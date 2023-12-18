@@ -12,10 +12,10 @@
       <div class="logo">Karthik Renuprasad</div>
       <div>
         <ul class="nav-links">
-          <li><a href="about">About</a></li>
-          <li><a href="experience">Experience</a></li>
-          <li><a href="projects">Projects</a></li>
-          <li><a href="contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -28,10 +28,10 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="about" onclick="toggleMenu()">About</a></li>
-          <li><a href="experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
@@ -45,7 +45,9 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Karthik Renuprasad</h1>
-        <p class="section__text__p2">Seeking Software Internships | CS @ SJSU | SWE @ SJSU FSAE</p>
+        <p class="section__text__p2">
+          Seeking Software Internships | CS @ SJSU | SWE @ SJSU FSAE
+        </p>
         <div class="btn-contianer">
           <button
             class="btn btn-color-2"
@@ -53,22 +55,86 @@
           >
             Download CV
           </button>
-          <button
-            class="btn btn-color-1"
-            onclick="location.href='./#contact'"
-          >
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
         </div>
         <div id="socials-container">
-          <img src="./assets/linkedin.png" alt="My LinkedIn Profile"
-          class="icon" 
-          onclick="location.href='https://linkedin.com/in/karthikrenuprasad/'">
-          <img src="./assets/github.png" alt="My Github Profile"
-          class="icon" 
-          onclick="location.href='https://github.com/MrKarkeys'">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn Profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/karthikrenuprasad/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github Profile"
+            class="icon"
+            onclick="location.href='https://github.com/MrKarkeys'"
+          />
         </div>
       </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="profile picutre"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Embedded Code, Full-Stack</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                San Jose State University <br />
+                Major: Computer Science, BS
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              As a BS Computer Science Sophomore, I'm filled with boundless
+              enthusiasm to embark on a journey of innovation and technology. My
+              passion drives me to excel, and I have already proven my
+              capabilities through effective time management and a flair for
+              collaboration, which I cultivated during my engaging experiences
+              in Spartan Racing and volunteer work.
+              <br />Moreover, I eagerly participated in the esteemed Zscaler
+              Student Work Experience program, refining my communication and
+              creative prowess while strengthening my ability to thrive in a
+              team-oriented environment. Armed with these valuable skills, I am
+              now eagerly seeking an opportunity to apply my knowledge and
+              contribute to a dynamic and inspiring team in a professional
+              setting.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
     </section>
     <script src="script.js"></script>
   </body>
